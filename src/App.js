@@ -4,10 +4,10 @@ import Counter from './components/Counter/Counter';
 
 function App() {
   return (
-    <div>
-      <h3>
+    <div style={{textAlign: "center"}}>
+      <h2>
         React Testing Demo
-      </h3>
+      </h2>
       <Counter/>
       <Todos/>
     </div>
